@@ -1,5 +1,3 @@
-# This script will sort photos based on EXIF metadata
-```python
 import os
 from PIL import Image
 from PIL.ExifTags import TAGS
@@ -33,4 +31,4 @@ def sort_photos_by_date(folder):
                 print(f"No EXIF date found for {filename}")
 
 if __name__ == "__main__":
-    sort_photos_by_date("your_photo_folder_here")
+    sort_photos_by_date("K:\Photos - Earlier")
